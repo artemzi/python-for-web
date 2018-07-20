@@ -34,9 +34,6 @@ def get_friends_ages(id):
             ages.append(2018 - int(d[-1]))
     return ages
 
-def comparator(age, count):
-    return
-
 def calc_age(uid):
     id = get_user_id(uid).json()['response'][0]['id']
     ages = get_friends_ages(id)
