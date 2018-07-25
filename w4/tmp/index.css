@@ -1,0 +1,43 @@
+a {
+    text-decoration: underline;
+}
+
+#sticky-sidebar {
+    position:fixed;
+    max-width: 20%;
+}
+
+#popular {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+#best__members {
+    list-style: none;
+    margin-left: -2.4rem;
+}
+
+#custom__select {
+    max-width: 3.2rem;
+}
+
+#custom__select2 {
+    width: 3.2rem;
+}
+
+#custom__select3 {
+    width: 3.2rem;
+}
+
+.rounded {
+    margin-bottom: 1.5rem;
+}
+
+.tag {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.card {
+    padding: 1rem;
+}
