@@ -3,8 +3,7 @@ from django.http import HttpResponse
 def simple_route(request):
     if request.method == "GET":
         return HttpResponse(status=200)
-
-    raise HttpResponse(status=405)
+    return HttpResponse(status=405)
 
 def slug_route(request, slug):
     return HttpResponse(
